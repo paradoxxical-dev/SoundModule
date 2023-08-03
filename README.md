@@ -1,6 +1,6 @@
 # Eclipse's SoundModule
 
-Eclipse's SoundModule SoundModule is a custom module designed to simplify the process of preloading and controlling sounds in Roblox games. It provides functions to create sounds with various effects and allows you to easily manage the playback of these sounds.
+Eclipse's SoundModule is a custom module designed to simplify the process of preloading and controlling sounds in Roblox games. It provides functions to create sounds with various effects and allows you to easily manage the playback of these sounds.
 
 ## [Docs](https://github.com/EclipseUser-Dev/SoundModule/blob/main/Docs.md)
 If you do not wish to follow the guide below or are searching for the documentation, click on the link above.

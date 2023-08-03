@@ -56,7 +56,7 @@ The `Properties` table can have the following optional key-value pairs:
 
 ### Returns
 
-- `WrappedSound`: A wrapper containing functions to control the created sound.
+- `SoundWrapper`: A wrapper containing functions to control the created sound.
 
 ## `SoundModule.CreateSoundAtPosition(SoundId : number, Properties : table) -> SoundWrapper`
 
@@ -75,11 +75,11 @@ The `Properties` table is the same as described in the `SoundModule.CreateSound`
 
 ### Returns
 
-- `WrappedSound`: A wrapper containing functions to control the created sound.
+- `SoundWrapper`: A wrapper containing functions to control the created sound.
 
-## WrappedSound Functions
+## SoundWrapper Functions
 
-The `WrappedSound` returned by the `SoundModule.CreateSound` and `SoundModule.CreateSoundAtPosition` functions provides the following functions to control the sound:
+The `SoundWrapper` returned by the `SoundModule.CreateSound` and `SoundModule.CreateSoundAtPosition` functions provides the following functions to control the sound:
 
 - `Play()`: Plays the sound.
 - `Stop()`: Stops the sound.
